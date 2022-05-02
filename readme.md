@@ -1,5 +1,7 @@
 # _Intro_ to Go
 
+<details> <summary> First Tutorial </summary>
+
 ## Init:
 
 > Create a module in which you can manage dependencies.
@@ -50,7 +52,18 @@ Go resolved and downloaded this dependency to satisfy the import declaration you
 go run .
 ```
 
----
-
 Tutorial Source:
 <a href="https://go.dev/doc/tutorial/web-service-gin">Developing a RESTful API with Go and Gin</a>
+
+</details>
+
+---
+
+## Second tutorial
+
+Notes:
+
+- `go.mod` seems to be like `pom.xml` and/or `package.json`
+
+Tutorial Source:
+<a href="https://semaphoreci.com/community/tutorials/building-and-testing-a-rest-api-in-go-with-gorilla-mux-and-postgresql">Building and Testing a REST API in Go with Gorilla Mux and PostgreSQL</a>
